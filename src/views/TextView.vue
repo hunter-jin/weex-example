@@ -40,8 +40,8 @@
       </panel>
       <panel title="line-height" type="primary">
         <text class="txt">no lineheight setting</text>
-        <text class="txt" style="line-height: 50">lineheight 50</text>
-        <text class="txt" style="line-height: 80"> lineheight 80</text>
+        <text class="txt" style="line-height: 50px">lineheight 50</text>
+        <text class="txt" style="line-height: 80px"> lineheight 80</text>
       </panel>
     </scroller>
   </div>
@@ -49,11 +49,11 @@
 
 <style scoped>
   .wrapper {
-    position: absolute;
+    position: fixed;
     top: 88px;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0px;
   }
 
   .txt {
