@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar title="Text Demo" leftItemTitle="返回" v-on:naviBarLeftItemClick="back"></navbar>
-    <scroller class="wrapper">
+    <scroller class="nav-scroller-wrapper">
       <panel title="color" type="primary">
         <text class="txt">default is black</text>
         <text class="txt" style="color:#286090">#286090</text>
@@ -48,7 +48,7 @@
 </template>
 
 <style scoped>
-  .wrapper {
+  .nav-scroller-wrapper {
     position: fixed;
     top: 88px;
     left: 0;

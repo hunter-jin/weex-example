@@ -1,6 +1,6 @@
 <template>
   <list>
-    <cell v-for="item in items" append="tree">
+    <cell v-for="item in items">
       <list-item @click="jump(item.url)">
         <text class="item-txt">{{item.title}}</text>
       </list-item>
@@ -16,7 +16,12 @@
       return {
         items: [
           {url: '/foo', title: 'Foo'},
-          {url: '/text', title: 'Text'}
+          {url: '/text', title: 'Text'},
+          {url: '/image', title: 'Image'},
+          {url: '/input', title: 'Input'},
+          {url: '/scroll', title: 'Scroller'},
+          {url: '/list', title: 'List'},
+          {url: '/slider', title: 'Slider'}
         ]
       }
     },
@@ -27,6 +32,14 @@
 </script>
 
 <style scoped>
+  .nav-scroller-wrapper {
+    position: fixed;
+    top: 88px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+  }
+
   .wrapper {
     background-color: #ededed;
   }
