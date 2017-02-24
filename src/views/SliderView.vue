@@ -27,7 +27,6 @@
   import panel from '../components/Panel.vue'
   import utils from '../common/js/Utils'
   let modal = weex.requireModule('modal')
-  let navigator = weex.requireModule('navigator')
 
   export default {
     data () {

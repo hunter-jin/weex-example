@@ -21,7 +21,12 @@
           {url: '/input', title: 'Input'},
           {url: '/scroll', title: 'Scroller'},
           {url: '/list', title: 'List'},
-          {url: '/slider', title: 'Slider'}
+          {url: '/slider', title: 'Slider'},
+          {url: '/web', title: 'Web'},
+          {url: '/iapi', title: 'Instance API'},
+          {url: '/storage', title: 'Storage'},
+          {url: '/stream', title: 'Stream'},
+          {url: '/picker', title: 'Picker'}
         ]
       }
     },
